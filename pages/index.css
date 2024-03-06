@@ -10,7 +10,7 @@
   font-family: "Noto Serif", serif;
 }
 
-.page__header {
+.header {
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -52,7 +52,7 @@
   text-decoration: none;
 }
 
-.header {
+.page__header {
   margin: 183px 80px 40px;
   display: flex;
   flex-direction: column;
