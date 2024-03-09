@@ -255,9 +255,6 @@
   background-color: #2f80ed;
   box-sizing: border-box;
   height: 60px;
-}
-
-.form__button-text {
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
