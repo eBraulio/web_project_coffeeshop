@@ -7,7 +7,6 @@
     <meta name="description" content="Página dedicada a la Cafetería" />
     <meta name="author" content="Braulio Banuelos" />
     <meta name="keywords" content="Cafetería, otros" />
-    <link rel="stylesheet" href="vendor/normalize.css" />
     <link rel="stylesheet" href="pages/index.css" />
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -194,10 +193,179 @@
             </fieldset>
           </form>
         </section>
-        <section class="menu" id="menu"></section>
-        <section class="about" id="contact"></section>
+        <section class="menu" id="menu">
+          <h2 class="menu__title">Menú</h2>
+          <h2 class="menu__subtitle">
+            Elaboramos nuestro café con granos certificados de comercio justo,
+            tostados localmente, y usamos tazas biodegradables. Todos los tés de
+            nuestra colección a $2/taza.
+          </h2>
+          <div class="cards">
+            <div class="card__top-row">
+              <div class="card">
+                <a class="card__title">De filtro</a>
+                <div class="card__content">
+                  <div class="card__content card__content-container">
+                    <a class="card__list-item card__list-left"
+                      >Regular (350 ml)</a
+                    >
+                    <span class="card_list-divider"></span>
+                    <a class="card__list-item card__list-right">$1</a>
+                  </div>
+                  <div class="card__content card__content-container">
+                    <a class="card__list-item card__list-left"
+                      >Grande (470 ml)</a
+                    >
+                    <span class="card_list-divider"></span>
+                    <a class="card__list-item card__list-right">$1.25</a>
+                  </div>
+                  <div class="card__content card__content-container">
+                    <a class="card__list-item card__list-left">XL (590 ml)</a>
+                    <span class="card_list-divider"></span>
+                    <a class="card__list-item card__list-right">$1.5</a>
+                  </div>
+                  <div class="card__content card__content-container">
+                    <a class="card__list-item card__list-left"
+                      >Tamaño familiar (700 ml, descafeinado)</a
+                    >
+                    <span class="card_list-divider"></span>
+                    <a class="card__list-item card__list-right">$1.75</a>
+                  </div>
+                  <div class="card__content card__content-container">
+                    <a class="card__list-item card__list-left"
+                      >Café helado (470 ml)</a
+                    >
+                    <span class="card_list-divider"></span>
+                    <a class="card__list-item card__list-right">$1.25</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <a class="card__title">Espresso</a>
+                <div class="card__content">
+                  <div class="card__content card__content-container">
+                    <a class="card__list-item card__list-left">Macchiato</a>
+                    <a class="card_list-divider"></a>
+                    <a class="card__list-item card__list-right">$2.25</a>
+                  </div>
+                  <div class="card__content card__content-container">
+                    <a class="card__list-item card__list-left">Cortado</a>
+                    <span class="card_list-divider"></span>
+                    <a class="card__list-item card__list-right">$2.5</a>
+                  </div>
+                  <div class="card__content card__content-container">
+                    <a class="card__list-item card__list-left">Mocha</a>
+                    <span class="card_list-divider"></span>
+                    <a class="card__list-item card__list-right">$3</a>
+                  </div>
+                  <div class="card__content card__content-container">
+                    <a class="card__list-item card__list-left"
+                      >Amanecer en Bay Area (descafeinado)</a
+                    >
+                    <span class="card_list-divider"></span>
+                    <a class="card__list-item card__list-right">$10</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card__bottom-row">
+              <div class="card">
+                <a class="card__title">Repostería</a>
+                <div class="card__content">
+                  <div class="card__content card__content-container">
+                    <a class="card__list-item card__list-left"
+                      >Croissant de almendra</a
+                    >
+                    <a class="card_list-divider"></a>
+                    <a class="card__list-item card__list-right">$2</a>
+                  </div>
+                </div>
+                <div class="card__content card__content-container">
+                  <a class="card__list-item card__list-left">Pan de banana</a>
+                  <span class="card_list-divider"></span>
+                  <a class="card__list-item card__list-right">$2</a>
+                </div>
+                <div class="card__content card__content-container">
+                  <a class="card__list-item card__list-left">Tarta de limón</a>
+                  <span class="card_list-divider"></span>
+                  <a class="card__list-item card__list-right">$3</a>
+                </div>
+                <div class="card__content card__content-container">
+                  <a class="card__list-item card__list-left"
+                    >Pastel Blue velvet</a
+                  >
+                  <span class="card_list-divider"></span>
+                  <a class="card__list-item card__list-right">$3.75</a>
+                </div>
+                <div class="card__content card__content-container">
+                  <a class="card__list-item card__list-left">Cookie web</a>
+                  <span class="card_list-divider"></span>
+                  <a class="card__list-item card__list-right">$2</a>
+                </div>
+                <div class="card__content card__content-container">
+                  <a class="card__list-item card__list-left">Baguette fresco</a>
+                  <span class="card_list-divider"></span>
+                  <a class="card__list-item card__list-right">$0.25</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="about" id="contact">
+          <h2 class="about__title">Sobre la cafetería</h2>
+          <div class="about__content">
+            <p class="about__paragraph">
+              Nuestra cafetería se ubica en la Biblioteca Triple Peaks. Cuenta
+              con 6 mesas y WiFi gratuito.
+            </p>
+            <p class="about__paragraph">
+              Nuestra principal misión es mantener a nuestros comensales cómodos
+              y con energía.
+            </p>
+            <p class="about__paragraph">
+              Además, buscamos reducir nuestro impacto ambiental, así que no
+              vendemos tazas de un solo uso. ¡Pero puedes comprar una de
+              nuestras tazas reutilizables!
+            </p>
+          </div>
+          <div class="about__circle"></div>
+        </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer">
+        <div class="footer__content">
+          <img
+            src="./images/logo_coffeeshop_light.svg"
+            alt="Triple Peaks Library Logo"
+            class="footer__logo"
+          />
+          <div class="footer__social">
+            <h2 class="footer__social-heading">Redes sociales</h2>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link">
+                  <img
+                    src="./images/facebook_white.svg"
+                    alt="facebook icon"
+                    class="footer__social-icon"
+                  />
+                  Facebook
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link">
+                  <img
+                    src="./images/instagram_white.svg"
+                    alt="instagram icon"
+                    class="footer__social-icon"
+                  />
+                  Instagram
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">© 2024 Braulio Banuelos</p>
+      </footer>
     </div>
   </body>
 </html>
