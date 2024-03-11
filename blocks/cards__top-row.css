@@ -1,0 +1,6 @@
+.cards__top-row {
+  display: flex;
+  gap: 100px;
+  margin: 0;
+  justify-content: space-between;
+}

@@ -10,3 +10,9 @@
 @import url("../blocks/card.css");
 @import url("../blocks/about.css");
 @import url("../blocks/footer.css");
+@import url("../blocks/cards.css");
+@import url("../blocks/cards__top-row.css");
+@import url("../blocks/cards__bottom-row.css");
+@import url("../blocks/noto-serif.css");
+@import url("../blocks/video__caption-container.css");
+@import url("../blocks/video__video-caption.css");

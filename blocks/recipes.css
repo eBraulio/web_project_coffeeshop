@@ -43,17 +43,4 @@
   height: 273px;
 }
 
-.video__caption-container {
-  display: flex;
-  justify-content: space-between;
-}
 
-.video__video-caption {
-  margin: 0;
-  padding-top: 24px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 30px;
-}
