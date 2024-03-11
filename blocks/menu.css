@@ -37,14 +37,14 @@
   justify-content: center;
 }
 
-.card__top-row {
+.cards__top-row {
   display: flex;
   gap: 100px;
   margin: 0;
   justify-content: space-between;
 }
 
-.card__bottom-row {
+.cards__bottom-row {
   margin: 100px auto 0;
 }
 
