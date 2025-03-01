@@ -39,3 +39,9 @@
   border-bottom: solid;
   border-color: #838383;
 }
+
+@media (max-width: 550px) {
+  .card {
+    width: 380px;
+  }
+}

@@ -31,3 +31,14 @@
 .nav__link:hover {
   color: #2f80ed;
 }
+
+@media (max-width: 500px) {
+  .nav {
+    flex-direction: column;
+
+    .nav__links {
+      margin-top: 20px;
+      padding: 0;
+    }
+  }
+}

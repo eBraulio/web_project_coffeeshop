@@ -6,7 +6,7 @@
   overflow: hidden;
   display: flex;
   justify-content: space-between;
-  padding: 100px 80px 173px;
+  padding: 80px 60px 173px;
 }
 
 .about__title {
@@ -21,13 +21,14 @@
 }
 
 .about__content {
-  margin-top: 19px;
+  margin-top: 0;
   max-width: 660px;
   font-family: "Noto Serif";
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  z-index: 1;
 }
 
 .about__paragraph {
@@ -51,4 +52,13 @@
   top: -152px;
   left: -129px;
   z-index: 0;
+}
+
+@media (max-width: 1050px) {
+  .about {
+    flex-direction: column;
+  }
+  .about__content {
+    margin-top: 100px;
+  }
 }
