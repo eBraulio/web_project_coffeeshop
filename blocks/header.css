@@ -87,14 +87,8 @@
   margin-left: 20px;
 }
 
-@media (max-width: 1000px) {
-  .header__image {
-    max-width: 40%;
-  }
-}
-
 @media (max-width: 600px) {
   .header__image {
-    max-width: 25%;
+    max-width: 45%;
   }
 }
