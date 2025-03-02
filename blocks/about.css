@@ -57,7 +57,9 @@
 @media (max-width: 1050px) {
   .about {
     flex-direction: column;
+    padding: 80px 30px 173px;
   }
+
   .about__content {
     margin-top: 100px;
   }

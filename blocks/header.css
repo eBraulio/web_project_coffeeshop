@@ -91,6 +91,9 @@
   .header__image {
     max-width: 45%;
   }
+  .header__footer {
+    margin-top: 20px;
+  }
 }
 
 @media (max-width: 950px) {
@@ -134,5 +137,11 @@
   .header__adress {
     font-size: 12px;
     line-height: 15px;
+  }
+  .header__container {
+    margin-top: 40px;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }

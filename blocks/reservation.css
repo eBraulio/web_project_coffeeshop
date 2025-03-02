@@ -22,3 +22,19 @@
   margin: 80px auto 120px;
   max-width: 385px;
 }
+
+@media (max-width: 500px) {
+  .reservation__title {
+    max-width: 360px;
+    margin: 100px auto 0;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .reservation__form {
+    max-width: 360px;
+  }
+}
